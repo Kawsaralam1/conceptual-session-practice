@@ -6,6 +6,11 @@
     .navbar-main>div{
         margin-top: 20px;
     }
+    .fifty-off{
+        left:20%;
+    }
+    .popular-main{
+    grid-template-columns: repeat(2,1fr);
 }
 
 @media screen and (max-width:500px) {
@@ -16,8 +21,16 @@
     .nav-btn-container{
         display:none;
     }
-    
+
     .navbar-main{
         flex-direction: row;
     }
+    .banner-main{
+        flex-direction: column;
+    }
+    .banner-childs{
+        width:100%;
+    }
+     .popular-main{
+    grid-template-columns: repeat(1,1fr);
 }
